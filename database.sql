@@ -10,9 +10,6 @@ create table users(
     Updated_at datetime,
     Deleted_at datetime
 )
-
-select*from users;
-
 create table salaries(
     Id int auto_increment primary key ,
     User_id int,
@@ -22,8 +19,6 @@ create table salaries(
     Updated_at datetime,
     Deleted_at datetime
 )
-select*from salaries;
-
 create table currencies(
 Id int auto_increment primary key,
     Name text,
@@ -31,4 +26,3 @@ Id int auto_increment primary key,
     Updated_at datetime,
     Deleted_at datetime
 )
-select*from currencies;
